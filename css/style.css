@@ -1,0 +1,285 @@
+body {
+    margin: 0
+}
+
+#main-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+#header-top {
+    background-color: #353434;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+#header-top nav {
+    margin: 10px 0
+}
+
+#header-top a {
+    text-decoration: none;
+    color: grey;
+    padding: 3px 7px 3px 5px
+}
+
+#header-top nav a {
+    text-transform: uppercase;
+    border-right: 1px solid grey
+}
+
+#header-top nav a:last-child {
+    border-right: none
+}
+
+#s-n-icons {
+    font-size: 30px;
+    margin-right: 6%
+}
+
+#s-n-icons div {
+    background-color: #222222;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+    margin-left: -6px;
+    text-align: center;
+    line-height: 2.2em
+}
+
+#header-main-title {
+    margin: 45px 0
+}
+
+#header-main-title h1,
+#header-main-title h5 {
+    text-align: center;
+    margin: 0
+}
+
+#header-main-title h1 {
+    font-size: 70px;
+    text-transform: uppercase
+}
+
+#header-main-title h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: grey
+}
+
+header>nav {
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    display: flex;
+    justify-content: center
+}
+
+header>nav div {
+    border-right: 1px solid silver;
+    padding: 18px 18px 18px 8px
+}
+
+
+/* header>nav div:before { */
+
+
+/* content: '\25bc'; */
+
+
+/* font-size: 8px; */
+
+
+/* margin-right: 4px; */
+
+
+/* } */
+
+header>nav div:first-child {
+    border-left: 1px solid silver
+}
+
+header>nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+/* header>nav div:hover>a { */
+
+
+/* color: orange; */
+
+
+/* } */
+
+
+/* header>nav div:hover:before { */
+
+
+/* content: ''; */
+
+
+/* } */
+
+#top-actus {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornsilk;
+}
+
+.top-actus-side {
+    width: 48%;
+    border: 1px solid;
+}
+
+.top-actus-right {
+    border: 1px solid black;
+    height: 200px;
+}
+
+#top-actus>.top-actus-side:first-child img {
+    width: 100%;
+}
+
+.top-actus-right {
+    justify-content: space-between;
+}
+
+section div h3,
+p,
+div div {
+    text-align: center;
+}
+
+#espace {
+    display: flex;
+    justify-content: center;
+}
+
+#es {
+    margin: 0px 11px 0px 0px
+}
+
+#comment {
+    width: 150px;
+    height: 31px;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+#color-com {
+    color: coral;
+}
+
+.deco {
+    text-decoration: none;
+}
+
+#div_img {
+    width: 40%;
+    height: 25%;
+    float: left;
+}
+
+.comm {
+    width: 150px;
+    height: 31px;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+#midel-actu {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+
+#h2pussy {
+    border: 1px solid black;
+    display: flex;
+    margin: 0px 0px 40px;
+    padding: 15px;
+}
+
+#partiGauche {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+#partyleft {
+    display: flex;
+    width: 400px;
+    height: 390px;
+}
+
+#partg {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -26px 0px 0px 26px;
+}
+
+#GAUCHE {
+    width: 60%;
+    border: 1px solid greenyellow;
+    margin: 0px 5px;
+}
+
+aside {
+    margin: 0px 5px;
+    border: 1px solid black;
+    width: 35%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#Droit {
+    display: flex;
+    justify-content: space-between;
+}
+
+#imgDroit {
+    width: 200px;
+    height: 200px;
+}
+
+aside h2 {
+    border: 1px solid blue;
+    margin: 0px 0px 40px;
+    padding: 15px;
+}
+
+#partD {
+    margin: -26px 0px 0px 26px;
+}
+
+#esDroit {
+    display: flex;
+    /* justify-content: center; */
+    margin: auto;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+#esGauche {
+    display: flex;
+    /* justify-content: center; */
+    margin: auto;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+#en-basgauche {
+    display: flex;
+    margin: 0 50px;
+}
+
+.separateur {
+    border: 1px solid black;
+    margin: 15px;
+}
