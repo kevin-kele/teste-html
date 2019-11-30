@@ -130,6 +130,7 @@ header>nav a {
     display: flex;
     justify-content: space-between;
     background-color: cornsilk;
+    margin: 40px 0;
 }
 
 .top-actus-side {
@@ -162,7 +163,7 @@ div div {
 }
 
 #es {
-    margin: 0px 11px 0px 0px
+    margin: 0px 13px 0px 0px;
 }
 
 #comment {
@@ -174,6 +175,7 @@ div div {
 
 #color-com {
     color: coral;
+    font-size: 13px;
 }
 
 .deco {
@@ -255,7 +257,7 @@ aside h2 {
 }
 
 #partD {
-    margin: -26px 0px 0px 26px;
+    margin: -20px 0px 0px 26px;
 }
 
 #esDroit {
@@ -263,7 +265,7 @@ aside h2 {
     /* justify-content: center; */
     margin: auto;
     margin-top: 2px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #esGauche {
@@ -271,7 +273,7 @@ aside h2 {
     /* justify-content: center; */
     margin: auto;
     margin-top: 2px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #en-basgauche {
@@ -282,4 +284,65 @@ aside h2 {
 .separateur {
     border: 1px solid black;
     margin: 15px;
+}
+
+.en_bas {
+    height: 171px;
+    width: 171px;
+}
+
+#wrap {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin: 30px 0px 0px 0px;
+}
+
+.enbas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* margin: 0px 0px 0px 0px; */
+}
+
+#flexflex {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 15px 0px;
+}
+
+.bonbon {
+    margin: 0px 0px 0px 10px;
+}
+
+.espa {
+    margin: 0px 40px 0px 0px;
+}
+
+#botom_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.first_1 {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color: burlywood;
+    margin: 0 0 40px;
+    /* text-decoration: none; */
+    padding: 15px;
+}
+
+.centre {
+    display: flex;
+    flex-direction: column;
+    text-align: -webkit-center;
+}
+
+.masque {
+    display: none;
+}
+
+#lien1:target #masque {
+    display: block;
 }
