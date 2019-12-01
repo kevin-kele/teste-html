@@ -343,6 +343,7 @@ aside h2 {
     display: none;
 }
 
-#lien1:target #masque {
-    display: block;
+#lien1 {
+    /* border: 1px solid red; */
+    margin: 0px 19px;
 }
